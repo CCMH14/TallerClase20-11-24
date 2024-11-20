@@ -8,7 +8,7 @@ section {
     text-align: center;
     border-radius: 5px;
     padding: 10px;
-    background-color: rgb(102, 47, 153);
+    background-color: rgb(187, 123, 247);
 }
 
 input {
@@ -18,5 +18,36 @@ input {
 
 button {
     width: 20%;
-    margin: 15;
+    margin: 15px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    transition: background-color .5%;
+    color: bisque;
+}
+
+button:hover {
+    background-color: blue;
+    color: aliceblue;
+}
+ul li {
+    border-bottom: 1px dashed #333;
+    margin: 8px 0;
+}
+
+span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(42, 169, 207);
+    border-radius: 100%;
+    text-align: center;
+    color: aliceblue;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+span:hover {
+    background-color: darkred;
 }
